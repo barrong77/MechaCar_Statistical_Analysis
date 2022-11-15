@@ -74,3 +74,16 @@ alternative hypothesis: true mean is not equal to 1500
 sample estimates:
 mean of x 
   1496.14 
+
+Study Design: MechaCar vs Competition
+
+When comparing the performance of the MechaCar versus the competition, I reviewed a few variables of interest to potential customers. These variables are cost, city, horsepower, highway fuel efficiency, safety rating, and carbon waste output.
+
+I will be testing if MechaCar has statistically significant differences in these metrics compared to the competition. 
+
+The null hypothesis: variables are not significantly different from the competition.  
+Alternative hypothesis: MechaCar is significantly different in these variables compared to the competition.
+
+I would perform one-tailed t-tests in order to determine if the MechaCar has higher or lower observed values in these variables. The potential customer would prefer cost to be lower, the city and highway fuel efficiency to be higher, the horsepower to be higher, the safety rating to be higher, and the carbon waste output to be lower.
+
+In order to run these tests, this information is required: the cost, fuel efficiency, horsepower, safety rating, and carbon waste output data from the MechaCar. In addition, the MechaCar's competitors.
