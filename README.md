@@ -12,6 +12,11 @@ The data meets the maximum variance in PSI requirement, but there are issues in 
 
 T-Tests on Suspension Coils
 
+From our first t-test, we can see the sample mean is not statistically different from the population mean of 1500 PSI with a p-value of 0.06.
+
+However, when we perform t-tests on the individual lots, we can see that although lots 1 and 2 are not statistically different from the population mean with p-values of 1 and 0.6 respectively, lot 3 does have a mean which is statistically different from the population mean with a p-value of 0.04.
+
+
 > #1. use t.test() to determine if the PSI across ALL lots is statistically different from the pop. mean of 1,500 PSI.
 > t.test(mecha_coil$PSI,mu=1500)
 
